@@ -1,7 +1,9 @@
 //          DOM <
+//  navigation modal
 const modal = document.querySelector("#navigation-box");
 const openModal = document.querySelector("#hamburger-container");
 const overlay = document.querySelector("#overlay")
+//  navigation modal
 //          DOM >
 
 //      MODAL <
