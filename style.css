@@ -1,10 +1,10 @@
 html {
     font-family: 'EB GaramondQuestrial', sans-serif;
-    color: black;
+    color: black;    
 }
 
 body {
-    background-color: rgb(212, 212, 224);
+    background-color: white
 }
 
 .fullscreen {
@@ -12,12 +12,24 @@ body {
     height: 100vh;
 }
 
+.border-left {
+    border-left-style: solid;
+    border-left-width: 0.15rem;
+    border-left-color: rgba(0, 0, 0, 0.329);
+}
+
+.border-top {
+    border-top-style: solid;
+    border-top-width: 0.15rem;
+    border-top-color: rgba(0, 0, 0, 0.377);
+}
+
 .border-bottom {
     border-bottom-style: solid;
     border-bottom-width: 0.2rem;
     border-bottom-color: rgb(0, 0, 0);
 }
-    #section-0 {
+    #section-0 {    /*   Hero + Navigation   */
         background-image: url(media/bkg-hero.png);        
         background-position: center;
         background-repeat: no-repeat;
@@ -107,7 +119,7 @@ body {
                         }
 
     
-    #section-1 {
+    #section-1 {    /*   Web development   */
         padding: none;
         background-image: url(media/bkg.png);
         background-position: center;
@@ -136,7 +148,7 @@ body {
                 right: 10%;                
             }
 
-        #section-1 > .grid {
+        #section-1 > .enterprise-description, .grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 3rem;
@@ -169,7 +181,7 @@ body {
                         padding-top: 0.6rem;
                     }
             
-            .projects {
+            .projects {     /*     Projects Long Description      */
                 display: block;
                 background-color: white;
             }
@@ -182,4 +194,58 @@ body {
                 margin: 0rem auto;
                 padding: 1rem 0rem;
                 
+            }
+
+            .resume { /*      RESUME / EXPERIENCE - for web development      */
+                height: 100vh;
+                background-color: white;
+                color: rgba(0, 0, 0, 0.884);
+            }
+                .resume h2 {
+                    text-align: center;
+                    padding-top: 2rem;
+                    text-decoration: underline;                    
+                }
+                .resume h4, p, h3{
+                    margin: 0.5rem;
+                }
+                .resume > .grid {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    width: 90%;
+                    margin: auto;
+                } 
+                    .experience-box {
+                        margin-top: 3rem;
+                    }
+        
+        #section-4 { /*   Enterprise   */
+
+        }
+            #section-4 hr {
+                width: 80%;
+            }
+            .section-enterprise {
+                display: flex;
+                justify-content: space-around;
+                background-color: white;                 
+                height: 15%;
+                padding: 5rem;           
+            }
+                .section-enterprise > h3 {                
+                    margin: auto 0rem;
+                    font-size: 400%;
+                }
+    
+                .section-enterprise > p {                
+                    margin: 0rem;
+                    font-size: 300%;
+                    color: white;
+                    position: absolute;
+                    right: 10%;                
+                }
+            
+            .enterprise-description {
+                width: 80%;
+                margin: auto;
             }
