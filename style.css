@@ -158,12 +158,9 @@ body {
         }
             .thumbnail {
                 background-color: rgba(255, 255, 255, 0);                
-                padding: 0rem;   
-                margin: 0; 
                 border: none;
             }
-                .thumbnail a {
-                    
+                .thumbnail a {                    
                     text-decoration: none;
                     color: inherit;
                 }
@@ -176,11 +173,13 @@ body {
                     background-color: white;
                     height: 5rem;
                 }   
-                    .thumbnail h2 {
-                        margin: 0;
-                        padding-top: 0.6rem;
+                    .thumbnail h2, p {
+                        margin: 0rem;                    
                     }
-            
+                    .thumbnail h2 {
+                        padding-top: 0.5rem;
+                    }
+
             .projects {     /*     Projects Long Description      */
                 display: block;
                 background-color: white;
@@ -191,15 +190,14 @@ body {
             .project-decription {
                 width: 80%;
                 height: 100%;
-                margin: 0rem auto;
-                padding: 1rem 0rem;
-                
+                margin: auto;                
             }
 
             .resume { /*      RESUME / EXPERIENCE - for web development      */
-                height: 100vh;
+                height: auto;
                 background-color: white;
                 color: rgba(0, 0, 0, 0.884);
+                margin: auto;
             }
                 .resume h2 {
                     text-align: center;
@@ -211,14 +209,15 @@ body {
                 }
                 .resume > .grid {
                     display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    width: 90%;
-                    margin: auto;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    width: 70%;
+                    margin: 2rem auto;
                 } 
-                    .experience-box {
-                        margin-top: 3rem;
-                    }
-        
+
+                .resume h3 {
+                    text-align: center;
+                }
+
         #section-4 { /*   Enterprise   */
 
         }
@@ -229,8 +228,7 @@ body {
                 display: flex;
                 justify-content: space-around;
                 background-color: white;                 
-                height: 15%;
-                padding: 5rem;           
+                height: 15%;          
             }
                 .section-enterprise > h3 {                
                     margin: auto 0rem;
@@ -239,7 +237,6 @@ body {
     
                 .section-enterprise > p {                
                     margin: 0rem;
-                    font-size: 300%;
                     color: white;
                     position: absolute;
                     right: 10%;                
@@ -249,3 +246,28 @@ body {
                 width: 80%;
                 margin: auto;
             }
+
+            .enterprise-description .grid {
+                margin: 15rem auto;
+            }
+                .enterprise-description h2 {
+                    margin-left: 1rem;
+                    text-align: left
+                }
+
+                .enterprise-description p {
+                    margin-left: 1rem;
+                    text-align: left
+                }
+        
+        #section-10 {
+
+        }
+            .social-icons {
+                position: absolute;
+                left: 90%;
+                font-size: 2.5rem;
+            } 
+                .social-icons a {
+                    color: inherit;
+                }
