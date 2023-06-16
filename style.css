@@ -29,15 +29,23 @@ body {
     border-bottom-width: 0.2rem;
     border-bottom-color: rgb(0, 0, 0);
 }
+
+
+
+
     #section-0 {    /*   Hero + Navigation   */
         background-image: url(media/bkg-hero.png);        
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
     }
-        #section-0  video {
-            width: 40%;
-            padding: 15% 0% 5% 15%;
+        .video-container {
+            margin: auto;
+            width: 50%;
+            padding: 20% 0%;
+        }
+        video {
+            width: 100%;
         }
         #overlay {
             display: none;
@@ -148,6 +156,10 @@ body {
                 right: 10%;                
             }
 
+            .section-header a {
+                text-decoration: none;
+                color: inherit;
+            }
         #section-1 > .enterprise-description, .grid {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -157,28 +169,64 @@ body {
             padding-bottom: 5rem;
         }
             .thumbnail {
-                background-color: rgba(255, 255, 255, 0);                
-                border: none;
+                
             }
                 .thumbnail a {                    
                     text-decoration: none;
                     color: inherit;
                 }
-                .thumbnail img {
-                    width: 100%;
-                    border: none;
+
+                .project-img {
+                    height: 10rem;
+                    background-image: url(/media/bkg-hero.png);
+                    background-color: rgba(0, 0, 0, 0.404);
+                    background-repeat: none;
+                    background-position: center;
+                    background-size: cover;
+                    color: white;
+                    text-align: center;
                 }
-                .thumbnail div {
+
+                    .project-img:first-child {
+                        padding-top: 2rem;
+                    }                    
+
+                    .project-img:hover {
+                        text-decoration: underline;
+                    }
+
+                .short-desc {                    
                     text-align: center;
                     background-color: white;
-                    height: 5rem;
+                    padding-bottom: 1rem;
                 }   
-                    .thumbnail h2, p {
-                        margin: 0rem;                    
+                    .short-desc h2{
+                        margin: auto;
                     }
-                    .thumbnail h2 {
-                        padding-top: 0.5rem;
+
+                    .short-desc p {
+                        width: 80%;
+                        margin: 0.5rem auto 0rem auto;
                     }
+                    .thumbnail-button {
+                        background-color: rgba(255, 255, 255, 0);
+                        color: rgb(0, 0, 0);
+                        margin-bottom: 1rem;
+                        border-top: none;
+                        border-right: none;
+                        border-bottom: none;
+                        padding: 0.5rem;
+                        border-top-right-radius: 60%;
+                        font-family: inherit;
+                    }
+
+                    .short-desc .border-left:hover {
+                        border-left-color: rgb(0, 26, 255);
+                        color: rgb(0, 26, 255);
+                    }
+                    
+                    
+
 
             .projects {     /*     Projects Long Description      */
                 display: block;
@@ -210,7 +258,7 @@ body {
                 .resume > .grid {
                     display: grid;
                     grid-template-columns: 1fr 1fr 1fr;
-                    width: 70%;
+                    width: 70%; 
                     margin: 2rem auto;
                 } 
 
@@ -219,7 +267,7 @@ body {
                 }
 
         #section-4 { /*   Enterprise   */
-
+            height: auto;
         }
             #section-4 hr {
                 width: 80%;
@@ -248,26 +296,48 @@ body {
             }
 
             .enterprise-description .grid {
-                margin: 15rem auto;
+                margin: 0rem auto 2rem auto;
             }
                 .enterprise-description h2 {
-                    margin-left: 1rem;
-                    text-align: left
+                    margin: 5rem auto 0rem auto;
+                    text-align: center
                 }
 
                 .enterprise-description p {
                     margin-left: 1rem;
-                    text-align: left
+                    text-align: center
                 }
-        
-        #section-10 {
 
+        #section-10 {
+            background-color: blue;
+            padding: 1rem 0rem;
         }
-            .social-icons {
-                position: absolute;
-                left: 90%;
-                font-size: 2.5rem;
-            } 
-                .social-icons a {
+        
+            #section-10 > div{
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                width: 80%;
+                color: white;
+                margin: auto;
+            }
+                #section-10 a {
                     color: inherit;
+                    text-decoration: none;
                 }
+
+                .social-icons {
+                    font-size: 2rem;
+                    margin: auto; 
+                }
+
+                .connect {
+                    display: flex;                
+                    flex-direction: column;
+                    font-size: 1.4rem;
+                }   
+                    .connect > h3 {
+                        font-size: 3rem;
+                    }
+                    .connect i {
+                        line-height: 1.8rem;
+                    }

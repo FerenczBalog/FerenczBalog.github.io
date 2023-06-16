@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ferencz Balog - Home</title>
+    <title>Ferencz Balog</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Nanum+Myeongjo:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
 </head>
@@ -16,9 +17,11 @@
 
     <section id="section-0" class="fullscreen">    <!--       HERO       -->
            
-        <video controls>
-            <source src="/media/mylifedash.mp4" type="video/mp4">
-        </video>  
+        <div class="video-container">
+            <video controls>
+                <source src="/media/mylifedash.mp4" type="video/mp4">
+            </video>
+        </div>  
 
         <div id="overlay"></div>
 
@@ -64,68 +67,220 @@
         </div>
 
         <div class="grid">
-            <button class="thumbnail">
-                <a href="projects.html#section-1" target="_blank">
-                    <img src="/media/bkg.png" alt="project1">
-                    <div>
-                        <h2>My Project 1</h2>
-                        <p>Skills: blabla blabla bla</p>
-                    </div>
-                </a>                
-            </button>
+
+            <div class="thumbnail">     <!--  mylifedash < -->
+                
+                <div class="project-img "> 
+
+                    <a href="https://mylifedash.netlify.app" target="_blank" >
+                        <h2>
+                            mylifedash
+                            <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
+                        </h2>
+                        <p style="font-size: 12px;">https://mylifedash.netlify.app</p>
+                    </a>
+                    
+                </div>
             
-            <button class="thumbnail">
-                <a href="projects.html#section-2" target="_blank">
-                    <img src="/media/bkg.png" alt="project1">
-                    <div>
-                        <h2>My Project 2</h2>
-                        <p>Skills: blabla blabla bla</p>
-                    </div>
-                </a>                
-            </button>
+                <div class="short-desc">   
 
-            <button class="thumbnail">
-                <a href="projects.html#section-3" target="_blank">
-                    <img src="/media/bkg.png" alt="project1">
-                    <div>
-                        <h2>My Project 3</h2>
-                        <p>Skills: blabla blabla bla</p>
-                    </div>
-                </a>                
-            </button>
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Design</a>
+                    </button>
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Read more...</a>
+                    </button>
 
-            <button class="thumbnail">
-                <a href="projects.html#section-4" target="_blank">
-                    <img src="/media/bkg.png" alt="project1">
-                    <div>
-                        <h2>My Project 4</h2>
-                        <p>Skills: blabla blabla bla</p>
-                    </div>
-                </a>                
-            </button>
+                    <p><strong>Languages:</strong> <br>HTML, CSS, Javascript</p> <br>
+                    <p><strong>Technologies:</strong> <br>REST API</p>
+                    <p><strong>Layout:</strong> <br>Flexbox, Grid</p>
+                    <p><strong>Responsiveness (100%)</strong> <br><br>
+                        <strong>max-width:</strong> <br> 900px, 482px, 321px <br><br>
+                        <strong>max-height:</strong> 380px
+                    </p>                 
+                    
+                </div>
 
-            <button class="thumbnail">
-                <a href="projects.html#section-5" target="_blank">
-                    <img src="/media/bkg.png" alt="project1">
-                    <div>
-                        <h2>My Project 5</h2>
-                        <p>Skills: blaba blabla bla</p>
-                    </div>
-                </a>                
-            </button>
-            <button class="thumbnail">
-                <a href="projects.html#section-6" target="_blank">
-                    <img src="/media/bkg.png" alt="project1">
-                    <div>
-                        <h2>My Project 6</h2>
-                        <p>Skills: blabla blabla bla</p>
-                    </div>
-                </a>                
-            </button>
+            </div>  <!--  mylifedash > -->
+
+            <div class="thumbnail">     <!--  RiderBox < -->
+                
+                <div class="project-img "> 
+
+                    <a href="https://rider-box.netlify.app" target="_blank" >
+                        <h2>
+                            Rider Box
+                            <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
+                        </h2>
+                        <p style="font-size: 12px;">https://rider-box.netlify.app</p>
+                    </a>
+                    
+                </div>
+            
+                <div class="short-desc">   
+
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Design</a>
+                    </button>
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Read more...</a>
+                    </button>
+
+                    <p><strong>Languages:</strong> <br>HTML, CSS, Javascript</p> <br>
+                    <p><strong>Technologies:</strong> <br>JSON, Js modules, Bootstrap</p>
+                    <p><strong>Layout:</strong> <br>Grid with Bootstrap</p>
+                    <p><strong>Responsiveness (100%)</strong> <br><br>
+                        <strong>max-width:</strong> <br> 900px, 482px, 321px <br><br>
+                        <strong>max-height:</strong> 380px
+                    </p>                 
+                    
+                </div>
+
+            </div>  <!--  RiderBox > -->
+
+            <div class="thumbnail">     <!--  Accounting Portfolio < -->
+                
+                <div class="project-img "> 
+
+                    <a href="#" target="_blank" >
+                        <h2>
+                            Accounting Portfolio                           
+                        </h2>
+                        <p style="font-size: 12px;">not online</p>
+                    </a>
+                    
+                </div>
+            
+                <div class="short-desc">   
+
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Design</a>
+                    </button>
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Read more...</a>
+                    </button>
+
+                    <p><strong>Languages:</strong> <br>HTML, CSS</p> <br>
+                    <p><strong>Technologies:</strong> <br> </p>
+                    <p><strong>Layout:</strong> <br>Grid</p>
+                    <p><strong>Responsiveness (0%)</strong> <br><br>
+                        <strong>max-width:</strong> <br>  <br><br>
+                        <strong>max-height:</strong> 
+                    </p>                 
+                    
+                </div>
+
+            </div>  <!--  Accounting Portfolio > -->
+
+            <div class="thumbnail">     <!--  Playschool Website < -->
+                
+                <div class="project-img "> 
+
+                    <a href="https://playschoolsample.netlify.app" target="_blank" >
+                        <h2>
+                            Playschool Website
+                            <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
+                        </h2>
+                        <p style="font-size: 12px;">https://playschoolsample.netlify.app</p>
+                    </a>
+                    
+                </div>
+            
+                <div class="short-desc">   
+
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Design</a>
+                    </button>
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Read more...</a>
+                    </button>
+
+                    <p><strong>Languages:</strong> <br>HTML, CSS, Javascript</p> <br>
+                    <p><strong>Technologies:</strong> <br> </p>
+                    <p><strong>Layout:</strong> <br>Grid, Flexbox</p>
+                    <p><strong>Responsiveness (100%)</strong> <br><br>
+                        <strong>max-width:</strong> <br> 900px, 482px, 321px <br><br>
+                        <strong>max-height:</strong> 380px
+                    </p>                 
+                    
+                </div>
+
+            </div>  <!--  Playschool Website > -->
+
+            <div class="thumbnail">     <!--  Weatherapp < -->
+                
+                <div class="project-img "> 
+
+                    <a href=" " target="_blank" >
+                        <h2>
+                            Weatherapp
+                            <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
+                        </h2>
+                        <p style="font-size: 12px;">not online</p>
+                    </a>
+                    
+                </div>
+            
+                <div class="short-desc">   
+
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Design</a>
+                    </button>
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Read more...</a>
+                    </button>
+
+                    <p><strong>Languages:</strong> <br>HTML, CSS, Javascript</p> <br>
+                    <p><strong>Technologies:</strong> <br> Bootstrap, JSON, API</p>
+                    <p><strong>Layout:</strong> <br>Grid, Flexbox</p>
+                    <p><strong>Responsiveness (0%)</strong> <br><br>
+                        <strong>max-width:</strong> <br> <br><br>
+                        <strong>max-height:</strong> 
+                    </p>                 
+                    
+                </div>
+
+            </div>  <!--  Weatherapp > -->
+
+            <div class="thumbnail">     <!--  Web Portfolio < -->
+                
+                <div class="project-img "> 
+
+                    <a href=" " target="_blank" >
+                        <h2>
+                            Web Portfolio
+                            <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
+                        </h2>
+                        <p style="font-size: 12px;">not online</p>
+                    </a>
+                    
+                </div>
+            
+                <div class="short-desc">   
+
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Design</a>
+                    </button>
+                    <button class="thumbnail-button border-left">
+                        <a href="projects.html#section-1">Read more...</a>
+                    </button>
+
+                    <p><strong>Languages:</strong> <br>HTML, CSS</p> <br>
+                    <p><strong>Technologies:</strong> <br> </p>
+                    <p><strong>Layout:</strong> <br>Grid, Flexbox</p>
+                    <p><strong>Responsiveness (100%)</strong> <br><br>
+                        <strong>max-width:</strong> <br> 900px, 482px, 321px <br><br>
+                        <strong>max-height:</strong> 380px
+                    </p>                 
+                    
+                </div>
+
+            </div>  <!--  Web Portfolio v1.0 > -->
+           
         </div>
 
         <div class="resume">
-            <h2>Experience</h2>
+            <h2>Resume</h2>
             <div class="grid">
                 <div class="experience-box border-left">
                     <h3>Education</h3>
@@ -163,7 +318,7 @@
         </div>
     </section>
 
-    <section id="section-4"> <!--       BiF ENTERPRISE         -->
+    <!-- <section id="section-4">        BiF ENTERPRISE         
         <hr>
         <div class="section-enterprise">
                 <h3>BiF enterprise</h3>                
@@ -230,24 +385,26 @@
                 </button>
             </div>
         </div>        
-    </section>
+    </section>  -->
 
-    <section id="section-10" class="fullscreen"> <!--       CONTACT         -->
+    <section id="section-10"> <!--       CONTACT         -->
 
-        <div class="section-header">
-            <h3>contact</h3>
+        <div>
+            <div class="connect">
+
+                <h3>contact</h3>
+                
+                <i class="fa fa-address-book"> <strong>Balog Ferencz</strong></i>
+                <i class="fa fa-envelope"><a href="mailto:balogferencz.artist@gmail.com" target="_blank"><strong> balogferencz.artist@gmail.com</strong></a></i>
+                <i class="fa fa-phone"><a href="tel:+40752813860" target="_blank"> +40752813860</a></i>
+            </div>  
+            
             <div class="social-icons">
                 <a href="https://github.com/FerenczBalog" target="_blank"><i class="fa fa-github"></i></i></a>
                 <a href="https://www.facebook.com/BalogFerencz2" target="_blank"><i class="fa fa-facebook-square"></i></i></a>
                 <a href="https://www.linkedin.com/in/ferenczbalog" target="_blank"><i class="fa fa-linkedin"></i></i></a>
             </div>
         </div>
-
-        <div>
-            <a href=""><i class="fa fa-address-book">Balog Ferencz</i></a>
-            <a href=""><i class="fa fa-envelop-open-o">balogferencz.artist@gmail.com</i></a>
-            <a href=""><i class="fa fa-phonek">+40 752 813 860</i></a>
-        </div>        
         
     </section>
     
