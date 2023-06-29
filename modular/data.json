@@ -1,0 +1,116 @@
+[
+    {
+        "id": "1",
+        "projectTitle": "MylifeDash",
+        "shortDesc": "A website created to make your life easier.",
+        "longDesc" : "That should be the longer description of the project!",
+        "Languages": "HTML, CSS, JavaScript",
+        "Technologies": "API fetch",
+        "Layout" : "Flexbox, Grid",
+        "Responsiveness": "All Devices",
+        "websiteLink": "https://mylifedash.netlify.app",
+        "video": " ",
+        "carousel": {
+            "01" : "#",
+            "02" : "#",
+            "03" : "#",
+            "04" : "#",
+            "05" : "#"
+        }
+    },
+    {
+        "id":"2",
+        "projectTitle": "RiderBox",
+        "shortDesc": "A website created to make your life easier.",
+        "longDesc" : "That should be the longer description of the project!",
+        "Languages": "HTML, CSS, JavaScript",
+        "Technologies": "JSON, Js modules, Bootstrap",
+        "Layout" : "Bootstrap Grid",
+        "Responsiveness": "All Devices",
+        "websiteLink": "https://rider-box.netlify.app",
+        "video": " ",
+        "carousel": {
+            "01" : "#",
+            "02" : "#",
+            "03" : "#",
+            "04" : "#",
+            "05" : "#"
+        }
+    },
+    {
+        "id":"3",
+        "projectTitle": "Accounting Portfolio",
+        "shortDesc": "A website created to make your life easier.",
+        "longDesc" : "That should be the longer description of the project!",
+        "Languages": "HTML, CSS",
+        "Technologies": " ",
+        "Layout" : "Grid",
+        "Responsiveness": " ",
+        "websiteLink": "Website offline",
+        "video": " ",
+        "carousel": {
+            "01" : "#",
+            "02" : "#",
+            "03" : "#",
+            "04" : "#",
+            "05" : "#"
+        }
+    },
+    {
+        "id":"4",
+        "projectTitle": "Playschool Website",
+        "shortDesc": "A website created to make your life easier.",
+        "longDesc" : "That should be the longer description of the project!",
+        "Languages": "HTML, CSS, JavaScript",
+        "Technologies": " ",
+        "Layout" : "Flexbox, Grid",
+        "Responsiveness": "All Devices",
+        "websiteLink": "https://playschoolsample.netlify.app",
+        "video": " ",
+        "carousel": {
+            "01" : "#",
+            "02" : "#",
+            "03" : "#",
+            "04" : "#",
+            "05" : "#"
+        }
+    },
+    {
+        "id":"5",
+        "projectTitle": "Weatherapp",
+        "shortDesc": "A website created to make your life easier.",
+        "longDesc" : "That should be the longer description of the project!",
+        "Languages": "HTML, CSS, JavaScript",
+        "Technologies": "API fetch, JSON, Bootstrap",
+        "Layout" : "Flexbox, Grid",
+        "Responsiveness": " ",
+        "websiteLink": "Website offline",
+        "video": " ",
+        "carousel": {
+            "01" : "#",
+            "02" : "#",
+            "03" : "#",
+            "04" : "#",
+            "05" : "#"
+        }
+    },
+    {
+        "id":"6",
+        "projectTitle": "Web Portfolio",
+        "shortDesc": "A website created to make your life easier.",
+        "longDesc" : "That should be the longer description of the project!",
+        "Languages": "HTML, CSS",
+        "Technologies": " ",
+        "Layout" : "Flexbox, Grid",
+        "Responsiveness": "All Devices",
+        "websiteLink": "Website offline",
+        "video": " ",
+        "carousel": {
+            "01" : "#",
+            "02" : "#",
+            "03" : "#",
+            "04" : "#",
+            "05" : "#"
+        }
+    }
+]
