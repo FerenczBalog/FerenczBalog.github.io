@@ -278,7 +278,7 @@ body {
                 .slideshow {
                     background-color: aqua;
                 }
-                    .mylsides {
+                    .mySlides1, .mySlides3 {
                         display: none;
                     }
 
