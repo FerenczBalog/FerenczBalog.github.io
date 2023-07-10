@@ -231,7 +231,13 @@ body {
 
             .projects {     /*     Projects Long Description      */
                 display: block;
-                background-color: white;
+            }
+            .project-body {
+                background-image: url(/media/bkg.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: fixed;
             }
             .projects .section-header P {
                 font-size: 2rem;
