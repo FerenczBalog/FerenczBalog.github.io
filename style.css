@@ -422,7 +422,7 @@ body {
                 }   
 
                     .photo-name .grid {
-                        grid-template-columns: 1fr 1fr;
+                        grid-template-columns: 1fr 2fr;
                         margin: 2rem auto;
                         padding: 0;
                     }
@@ -445,6 +445,7 @@ body {
                     .photo-name p{
                         margin: 2rem 1rem;
                         text-align: justify;
+                        font-size: 12px;
                     }
                     
                 .skills {
