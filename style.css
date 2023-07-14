@@ -397,23 +397,26 @@ body {
                     justify-content:flex-start;
                     height: 3rem;
                     width: 100%;
-                    background-color: #e7e4e4;
+                    background-image: url(/media/bkg.png);
+                    background-position: center;
+                    background-repeat: none;
+                    background-size: cover;
                 }
                     .fa-download {
                         margin: 1rem;
-                        color: black;
+                        color: rgb(255, 254, 254);
                     }   
                         .download-text {
                             display: none;                 
                             
                         }
                             .fa-download:hover {
-                                color: blue;
+                                color: rgb(5, 143, 255);
                             }
                             .download-link:hover + .download-text{
                                 display: block;
                                 text-decoration: none;
-                                color: inherit;
+                                color: white;
                                 padding: 0.2rem;
                                 font-size: 12px;                            
                             }
