@@ -225,28 +225,6 @@ body {
                         border-left-color: rgb(0, 26, 255);
                         color: rgb(0, 26, 255);
                     }
-                    
-                    
-
-
-            .projects {     /*     Projects Long Description      */
-                display: block;
-            }
-            .project-body {
-                background-image: url(/media/bkg.png);
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: fixed;
-            }
-            .projects .section-header P {
-                font-size: 2rem;
-            }
-            .project-decription {
-                width: 80%;
-                height: 100%;
-                margin: auto;                
-            }            
 
         #section-2 {    /*   Web Design    */
             background-image: url(media/bkg.png);

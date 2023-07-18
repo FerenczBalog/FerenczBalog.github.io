@@ -1,0 +1,146 @@
+html {
+    font-family: 'EB GaramondQuestrial', sans-serif;
+    color: black;    
+}
+
+body {
+    background-image: url(/media/bkg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
+
+.border-left {
+    border-left-style: solid;
+    border-left-width: 0.15rem;
+    border-left-color: rgba(0, 0, 0, 0.329);
+}
+
+.border-top {
+    border-top-style: solid;
+    border-top-width: 0.15rem;
+    border-top-color: rgba(0, 0, 0, 0.377);
+}
+
+.border-bottom {
+    border-bottom-style: solid;
+    border-bottom-width: 0.15rem;
+    border-bottom-color: rgba(0, 0, 0, 0.377);
+}
+
+        #overlay {
+            display: none;
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.733);
+            z-index: 1;
+            position: fixed;
+            top: 0;
+            color: white;
+        }
+            #overlay > p {
+                text-align: left;
+                margin: 25% 5%;
+                line-height: 1.5rem;
+
+            }
+
+        aside {
+            float: right;
+            background-color: rgba(0, 0, 0, 0);
+            width: 5rem;
+            height: 100vh;
+        }
+            #hamburger-container { 
+                background-color: rgba(0, 255, 255, 0);
+                position: fixed;
+                right: 2%;
+                top: 45%;
+                width: 5rem;
+                z-index: 1;
+                border: none;
+            }
+                .hamburger {
+                    width: 3rem;
+                    height: 0.25rem;
+                    background-color: rgb(0, 0, 0);
+                    margin: 1rem;
+                }                
+                    #navigation-box {
+                        display: none;     /*  !!! display:  NONE  !!!  */
+                        justify-content: space-around;
+                        background-color: rgba(0, 255, 255, 0);
+                        color: rgb(255, 255, 255);
+                        position: fixed;
+                        right: 0;
+                        top: 25%;
+                        width: 100%;
+                        z-index: 1;                        
+                        padding: 0;
+                        margin: 0;
+                    }       
+                        #navigation-box p {
+                            margin: auto 3rem;
+                            font-size: 2rem;
+                        }    
+                        #navigation-box ul, ul a {
+                            font-size: 1.5rem;
+                            list-style-type: none;
+                            color: inherit;
+                            text-decoration: none;
+                        }
+                        #navigation {
+                            display: flex;
+                            flex-direction: column;
+                            font-size: 2rem;
+                            padding:  0rem 2rem 0rem 0.8rem ;
+                            list-style-type: none;
+                            border-style: solid;
+                            border-color: white;
+                            border-width: 0rem 0rem 0rem 0.12rem;
+                            line-height: 3rem;
+                        }  
+                        #navigation a {
+                            text-decoration: none;
+                            color: white;
+                        }   
+                        #navigation a:hover {
+                            color: blue;
+                        }
+
+
+
+    .projects {     /*     Projects Long Description      */
+        display: block;
+        color: white;
+        width: 80%;
+        margin: auto; 
+    }
+        .title {  
+            width: 100%;          
+            display: flex;
+            justify-content: space-between;            
+            margin-top: 2rem;
+        }
+        
+            a {
+                text-decoration: none;
+                color: inherit;            
+            }
+
+            .title h2 {
+                font-size: 40px;
+                margin: 0;
+            }
+        
+            .used-tech i{
+                font-size: 20px;
+            }
+
+        
