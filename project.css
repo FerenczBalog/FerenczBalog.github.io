@@ -162,9 +162,10 @@ body {
                 font-size: 20px;
             }
 
-        p {
+        .project-decription {
             text-align: justify;
         }
+
         h4 {
             margin: 0;
         }
@@ -174,3 +175,50 @@ body {
             height: 70vh;
             margin: 1rem 0rem;
         }
+
+
+@media (max-width:1000px) {
+    .grid {
+        display: block;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .title {  
+        width: 90%;          
+        display: block;
+    }   
+        .used-tech {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+        }
+
+    #navigation-box {
+        flex-direction: column-reverse;
+        width: 90%;
+        top: 10%;
+    }
+        #navigation-box p {
+            margin: 1rem 0rem 0.5rem 0rem;
+            font-size: 2rem;
+        } 
+
+    #navigation a{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .fullscreen {
+        height: auto;
+    }
+
+    #video-container {
+        padding: 5rem;
+    }
+
+}
