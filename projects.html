@@ -27,16 +27,16 @@
             </button>
 
             <div id="navigation-box">
-                <div>
+                <div class="border-left myProjects-list">
                     <p> 
                         My Projects
                     </p>
                     <ul>
                         <li>
-                            <a href="#section-1">My Project 1</a>
+                            <a href="#section-1">mylifedash</a>
                         </li>
                         <li>
-                            <a href="#section-2">My Project 2</a>
+                            <a href="#section-2">RiderBox</a>
                         </li>
                         <li>
                             <a href="#section-3">My Project 3</a>
@@ -70,7 +70,150 @@
             
         </aside>
 
-    <section id="section-1"> <!--      1. PROJECT TITLE     -->        
+    <section id="section-1"> <!--      1. PROJECT     -->        
+
+        <div class="projects">
+            
+            <div class="title ">
+
+                <div class="border-left">
+                    <a href="https://mylifedash.netlify.app" target="_blank" >
+                        <h2>
+                            mylifedash 
+                            <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
+                        </h2>
+                        <p style="font-size: 12px;">GO TO - https://mylifedash.netlify.app</p>
+                    </a>
+                    <p style="font-size: 12px;"><a href="#mylifedash"> OR check out the iframe</a></p>
+                </div>
+
+                <div class="used-tech">
+                    <i class="fa-brands fa-html5"></i>
+                    <i class="fa-brands fa-css3"></i>
+                    <i class="fa-brands fa-square-js"></i>
+                    <i class="fa-solid fa-gear"></i>
+                </div>
+                      
+
+            </div>
+
+            <div class="project-decription border-bottom">
+                <h4>Overview</h4>
+
+                <div class="grid">
+                    <p>
+                        Let's call it "Life Tracker" or "Lifestyle Dashboard." 
+                        Mylifedash aims to simplify users' lives by tracking their lifestyle. 
+                        The website functions as a comprehensive dashboard, providing a range of 
+                        features including financial statements, career and personal life 
+                        achievement tracking, and a chill zone for relaxation. While the current 
+                        version of the website offers only a fraction of its intended functionality, 
+                        it does provide a three-day weather forecast obtained from an API. The weather 
+                        information includes selected details, but it is important to note that, based 
+                        on tests and observations, there is a 15% margin of error. In future versions, 
+                        this margin of error will be addressed and the design will be simplified.
+                    </p>
+                        <img style="width: 90%; margin: auto;" src="media/mylifedash/1.png" alt="mylifedash">
+                </div>
+
+                
+                <br>
+
+                <h4>Technical overview</h4>
+
+                <p>
+                    The initial version of the website was developed using HTML, CSS, 
+                    and JavaScript as the core programming languages. The main functionality 
+                    of fetching weather forecasts was implemented through API integration. 
+                    To enhance the user experience and mimic an application-like behavior, 
+                    the web application utilized separate HTML pages for each function while 
+                    maintaining a unified styling and JavaScript page for the entire project. 
+                    This approach allowed for code reusability and adhered to the principles 
+                    of clean code by promoting modularization and organization. By writing 
+                    the code once and leveraging it across multiple functions, the development 
+                    process was optimized, reducing redundancy and enhancing maintainability. 
+                    The use of consistent styling and JavaScript code throughout the website 
+                    ensured a cohesive and unified user interface.
+                    <br><br>
+                    <div class="grid">
+                       <img src="media/mylifedash/3.png" style="margin: auto;">
+                        <p>As a stylistic principle, the project employed shorthand lines for code 
+                            efficiency. Default classes such as "fullscreen," "layout," or "border settings" 
+                            were defined at the top of the file, allowing for consistent application across 
+                            various elements. This approach facilitated quick and consistent styling without 
+                            excessive repetition. For the layout, the project utilized the flexbox model for the header 
+                            and grid layout for sections like the weather forecast section. Flexbox 
+                            provided flexibility in positioning and aligning elements within the header, 
+                            while grid layout enabled a structured presentation of content within the 
+                            weather forecast section. Initially, a slideshow was planned for the hourly forecast, but to streamline 
+                            the development process and minimize the amount of JavaScript code required, 
+                            the decision was made to leverage the CSS overflow property. By applying the 
+                            appropriate overflow settings, the desired behavior for the hourly forecast 
+                            section could be achieved without the need for extensive JavaScript implementation.
+                        </p>
+                    </div>
+                    <br>
+                    By employing shorthand lines, specifying default classes, and utilizing 
+                    layout technologies such as flexbox and grid layout, the project achieved 
+                    efficient and responsive styling. The decision to use CSS overflow instead 
+                    of building a slideshow with JavaScript helped reduce complexity and code 
+                    overhead, resulting in a more streamlined development approach.
+                    <br><br>
+                    In this project, the JavaScript file is designed with a focus on efficiency 
+                    and clean code principles. Approximately 80% of the JavaScript code is 
+                    dedicated to handling the weather forecast functionality, while the 
+                    remaining 20% encompasses functions responsible for the modal, clock, 
+                    Welcome text (based on the time slot), and the display of the month and 
+                    days from the "new Date" constructor.
+                    <br>
+                    <div class="grid">
+                        <p>To enhance code clarity and maintainability, variables are consistently declared using 
+                            the const keyword to ensure their immutability. This approach helps avoid accidental 
+                            reassignments and promotes better code reliability. Furthermore, adhering to clean code 
+                            principles, all variables are declared at the top of the file, thoughtfully organized 
+                            under descriptive comments that explain their purpose. For instance, variables related 
+                            to the clock function are grouped between two "// CLOCK" comments, facilitating easy 
+                            reference for developers working on the project.
+                            <br>
+                            By following this approach, the project promotes code reusability, readability, 
+                            and maintainability. The decision to keep variable names constant and logically 
+                            organized reduces the likelihood of naming conflicts and streamlines the development 
+                            process. The combination of efficient JavaScript usage, adherence to clean code 
+                            practices, and focus on essential functionalities ensures that the web application 
+                            performs optimally and delivers a seamless user experience.
+                        </p>
+
+                        <img src="media/mylifedash/2.png" style="width: 90%; margin: auto;" alt="">
+                    </div>
+                </p>
+
+                <h4>Next steps</h4>
+
+                <p>
+                    In the coming months, I am enthusiastic about undertaking a complete rewrite 
+                    of the project's frontend using ReactJS. This revamp will encompass introducing 
+                    new features and an enhanced design, with the overarching goal of elevating the 
+                    website's quality and user experience.
+                    <br>
+                    To ensure scalability and flexibility, I plan to adopt a non-relational 
+                    database like Atlas as the backend database solution. This choice will 
+                    enable efficient handling of data and facilitate seamless integration with ReactJS.
+                    <br>
+                    By leveraging the power of ReactJS and implementing an advanced database 
+                    solution, I am committed to delivering a more robust, responsive, and 
+                    user-friendly website. This ambitious overhaul aims to elevate the overall 
+                    quality and usability of the platform, providing users with a more enjoyable 
+                    and intuitive experience.
+                </p>
+                    <div id="mylifedash"></div>
+                        <iframe src="https://mylifedash.netlify.app" title="mylifedash" id="mylifedash"></iframe>
+                    </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="section-2"> <!--      2. PROJECT   -->        
 
         <div class="projects">
             
@@ -79,7 +222,7 @@
                 <div>
                     <a href="https://mylifedash.netlify.app" target="_blank" >
                         <h2>
-                            mylifedash 
+                            RiderBox 
                             <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
                         </h2>
                         <p style="font-size: 12px;">https://mylifedash.netlify.app</p>
@@ -149,84 +292,6 @@
 
     </section>
 
-    <section id="section-1"> <!--      1. PROJECT TITLE     -->        
-
-        <div class="projects">
-            
-            <div class="title">
-
-                <div>
-                    <a href="https://mylifedash.netlify.app" target="_blank" >
-                        <h2>
-                            mylifedash 
-                            <i class="fa fa-external-link" style="font-size: 40%; position: absolute;"></i>
-                        </h2>
-                        <p style="font-size: 12px;">https://mylifedash.netlify.app</p>
-                    </a>
-                </div>
-
-                <div class="used-tech">
-                    <i class="fa-brands fa-html5"></i>
-                    <i class="fa-brands fa-css3"></i>
-                    <i class="fa-brands fa-square-js"></i>
-                    <i class="fa-solid fa-gear"></i>
-                </div>
-                      
-
-            </div>
-
-            <div class="project-decription border-bottom">
-                <h1>Purpuse</h1>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    usantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! 
-                </p>
-
-                <h1>Purpuse</h1>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    usantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! 
-                </p>
-
-                <h1>Purpuse</h1>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    usantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Natus eveniet laudantium laboriosam doloremque velit ipsa 
-                    dolore fuga culpa ullam, consectetur a, nulla dolores quam  
-                    beatae libero sit quia accusantium. Odit! 
-                </p>
-            </div>
-        </div>
-
-    </section>
    
     <script src="script.js"></script>    
 </body>
