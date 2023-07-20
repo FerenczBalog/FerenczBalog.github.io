@@ -30,11 +30,19 @@ body {
     border-bottom-color: rgba(0, 0, 0, 0.377);
 }
 
+a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
+    cursor:pointer
+}
+
+* {
+    cursor: default;
+}
+
 
 
 
     #section-0 {    /*   Hero + Navigation   */
-        background-image: url(media/bkg-hero.png);        
+        background-image: url(media/theme/bkg-hero.png);        
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -153,14 +161,14 @@ body {
     
     #section-1 {    /*   Web development   */
         padding: none;
-        background-image: url(media/bkg.png);
+        background-image: url(media/theme/bkg.png);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         
     }   
         .section-header {
-            background-image: url(media/bkg-hed.png);
+            background-image: url(media/theme/bkg-hed.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -199,7 +207,7 @@ body {
 
                 .project-img {
                     height: 10rem;
-                    background-image: url(/media/bkg-hero.png);
+                    background-image: url(/media/theme/bkg-hero.png);
                     background-color: rgba(0, 0, 0, 0.404);
                     background-repeat: none;
                     background-position: center;
@@ -247,7 +255,7 @@ body {
                     }
 
         #section-2 {    /*   Web Design    */
-            background-image: url(media/bkg.png);
+            background-image: url(media/theme/bkg.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -391,7 +399,7 @@ body {
                     justify-content:flex-start;
                     height: 3rem;
                     width: 100%;
-                    background-image: url(/media/bkg.png);
+                    background-image: url(/media/theme/bkg.png);
                     background-position: center;
                     background-repeat: none;
                     background-size: cover;
@@ -496,7 +504,7 @@ body {
                     }
                     
         #section-10 {
-            background-image:url(/media/bkg.png);
+            background-image:url(/media/theme/bkg.png);
             background-size: cover;
             padding: 1rem 0rem;
         }
@@ -605,7 +613,11 @@ body {
     }        
 }
 
-@media (max-width:650px) {
+@media (max-width:700px) {
+
+    #hamburger-container {
+        top: 0%;
+    }
     
     #section-0 img {
         width: 90%;
@@ -634,6 +646,17 @@ body {
         position: relative;
         left: -10%;
     }
+
+    #section-1 > .enterprise-description, .grid {
+        gap: 0rem;
+        margin-top: 0;
+
+    }
+
+    .short-desc {
+        margin-bottom: 1rem;
+    }
+
 }
 
 @media (max-width:415px) {
@@ -673,10 +696,6 @@ body {
         font-size: 20px;
         position: absolute;
         left: 15%;  
-    }
-
-    #hamburger-container {
-        top: 0%;
     }
 
     .photo-name .grid {

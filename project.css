@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-image: url(/media/bkg.png);
+    background-image: url(/media/theme/bkg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -40,6 +40,15 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 }
+
+a:-webkit-any-link, #hamburger-container, button, .project-img *, .fa a {
+    cursor:pointer
+}
+
+* {
+    cursor: default;
+}
+
 
         #overlay {
             display: none;
@@ -170,9 +179,14 @@ body {
             margin: 0;
         }
 
+        .project-decription img {
+            width: 90%; 
+            margin: 2rem auto;
+        }
+
         iframe{
             width: 100%;
-            height: 70vh;
+            height: 100vh;
             margin: 1rem 0rem;
         }
 
