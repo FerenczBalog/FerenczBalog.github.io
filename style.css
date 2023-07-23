@@ -432,7 +432,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
                     .photo-name img {
                         width: 15rem;
-                        border-radius: 50%;
+                        border-radius: 10%;
                     }
                     
                     .photo-name h1 {
