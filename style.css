@@ -568,6 +568,11 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
 @media (max-width:864px) {
 
+    #section-0 img {
+        width: 70%;
+        margin-bottom: 2rem;
+    }
+
     #section-0 h1{
         font-size: 1.5rem;
     }
@@ -616,11 +621,8 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     #hamburger-container {
         top: 0%;
-    }
-    
-    #section-0 img {
-        width: 90%;
-    }
+    }   
+
 
     #section-0 h1{
         font-size: 1rem;
@@ -665,24 +667,23 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
     }
 
     #section-0 img {
-        width: 70%;
+        width: 50%;
         margin: auto;
     }
 
     #section-0 h1{
         font-size: 0.8rem;
+        margin-top: 1rem;
     }
 
     #section-0 h4{
-        font-size: 0.5rem;
+        font-size: 0.5rem;        
     }
 
     #section-0 p {
         font-size: 0.5rem;
-        margin: 0.5rem 1rem;
-    }
-
-    
+        margin: 0.2rem 1rem;
+    }   
 
 
     .section-header > p {   
