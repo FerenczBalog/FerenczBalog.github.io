@@ -566,7 +566,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
     }
 }
 
-@media (max-width:930px) {
+@media (max-width:864px) {
 
     #section-0 img {
         width: 70%;
@@ -586,8 +586,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
     }
 
     .section-header > p {   
-        right: 10%; 
-        top: 70%; 
+        right: 10%;  
         font-size: 20px;            
     }
 
@@ -613,12 +612,12 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
         height: 297mm;
         width: 100%;
         background-color: white;
-        border: none;
+        border: 1px solid grey;
         margin: 1rem auto;
     }        
 }
 
-@media (max-width:710px) {
+@media (max-width:700px) {
 
     #hamburger-container {
         top: 0%;
@@ -639,7 +638,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     .section-header > p {   
         right: 15%;  
-        top: 60%;
+        top: 130%;
         font-size: 20px;            
     }
 
@@ -649,14 +648,9 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
         left: -10%;
     }
 
-    #section-1 .grid {
-        grid-template-columns: 1fr 1fr;
-
-    }
-
-    #section-1 > .enterprise-description {
-        gap: 2rem;
-        margin-top: 2rem;
+    #section-1 > .enterprise-description, .grid {
+        gap: 0rem;
+        margin-top: 0;
 
     }
 
@@ -666,8 +660,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
 }
 
-
-@media (max-width:630px) {
+@media (max-width:415px) {
 
     #section-0 {
         height: 35rem;
@@ -692,12 +685,12 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
         margin: 0.2rem 1rem;
     }   
 
+
     .section-header > p {   
         right: 15%;  
-        top: 90%;
+        top: 115%;
         font-size: 20px;            
     }
-
 
     .section-header > h3 {
         font-size: 20px;
@@ -706,7 +699,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
     }
 
     .photo-name .grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
         .photo-name h1 {
             font-size: 30px;
@@ -725,8 +718,6 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     #section-1 .grid {
         grid-template-columns: 1fr;
-        gap: 0rem;
-        margin-right: 1rem;
     }
 
     .skills .grid {
