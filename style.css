@@ -566,7 +566,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
     }
 }
 
-@media (max-width:864px) {
+@media (max-width:930px) {
 
     #section-0 img {
         width: 70%;
@@ -587,6 +587,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     .section-header > p {   
         right: 10%;  
+        top: 60%;
         font-size: 20px;            
     }
 
@@ -612,12 +613,12 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
         height: 297mm;
         width: 100%;
         background-color: white;
-        border: 1px solid grey;
+        border: none;
         margin: 1rem auto;
     }        
 }
 
-@media (max-width:700px) {
+@media (max-width:710px) {
 
     #hamburger-container {
         top: 0%;
@@ -638,7 +639,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     .section-header > p {   
         right: 15%;  
-        top: 130%;
+        top: 60%;
         font-size: 20px;            
     }
 
@@ -648,9 +649,14 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
         left: -10%;
     }
 
-    #section-1 > .enterprise-description, .grid {
-        gap: 0rem;
-        margin-top: 0;
+    #section-1 .grid {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    #section-1 > .enterprise-description {
+        gap: 2rem;
+        margin-top: 2rem;
 
     }
 
@@ -660,7 +666,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
 }
 
-@media (max-width:415px) {
+@media (max-width:630px) {
 
     #section-0 {
         height: 35rem;
@@ -688,7 +694,7 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     .section-header > p {   
         right: 15%;  
-        top: 115%;
+        top: 90%;
         font-size: 20px;            
     }
 
@@ -698,9 +704,10 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
         left: 15%;  
     }
 
-    .photo-name .grid {
+    .resume .photo-name .grid {
         grid-template-columns: 1fr;
     }
+
         .photo-name h1 {
             font-size: 30px;
             margin-left: 0rem;
@@ -718,6 +725,8 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     #section-1 .grid {
         grid-template-columns: 1fr;
+        gap: 0rem;
+        margin-right: 1rem;
     }
 
     .skills .grid {
@@ -755,6 +764,21 @@ a:-webkit-any-link, #hamburger-container, button, i, .project-img *, .fa a {
 
     .download-box {
         width: 100%;
+    }
+}
+
+@media (max-width:400px) {
+
+    .photo-name .grid {
+        grid-template-columns: 1fr;
+    }
+
+    #section-1 .grid {
+        margin: 1rem;       
+    }
+
+    .section-header p {
+        top: 95%;
     }
 }
 
